@@ -116,7 +116,7 @@ export default {
 <style lang="scss">
 #app-drawer {
   .v-list__tile {
-    border-radius: 4px;
+    border-radius: 2px;
 
     &--buy {
       margin-top: auto;

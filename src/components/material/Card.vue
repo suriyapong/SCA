@@ -23,7 +23,7 @@
         />
         <span v-else>
           <h4
-            class="title font-weight-light mb-2"
+            class="font-weight-light my-1"
             v-text="title"
           />
           <p
@@ -111,7 +111,7 @@ export default {
   .v-card--material {
     &__header {
       &.v-card {
-        border-radius: 4px;
+        border-radius: 2px;
       }
     }
   }

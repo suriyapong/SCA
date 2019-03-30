@@ -8,7 +8,8 @@
       <v-flex md12>
         <material-card
           color="green"
-          title="Table on Plain Background"
+          full-width
+          title="พนักงาน"
           text="Here is a subtitle for this table"
         >
           <v-data-table :headers="headers" :items="items.slice(0, 7)" hide-actions>
@@ -56,7 +57,7 @@ export default {
     ],
     items: [
       {
-        name: "Dakota Rice",
+        name: "รัชกฤช มัญยานนท์",
         country: "Niger",
         city: "Oud-Tunrhout",
         salary: "$35,738"

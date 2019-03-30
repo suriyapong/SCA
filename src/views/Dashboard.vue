@@ -5,10 +5,10 @@
         <material-chart-card
           :data="dailySalesChart.data"
           :options="dailySalesChart.options"
-          color="info"
+          color="blue"
           type="Line"
         >
-          <h4 class="title font-weight-light">Daily Sales</h4>
+          <h4 class="title font-weight-light">Daily </h4>
           <p class="category d-inline-flex font-weight-light">
             <v-icon color="green" small>mdi-arrow-up</v-icon>
             <span class="green--text">55%</span>&nbsp;
