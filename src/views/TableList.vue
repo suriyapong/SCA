@@ -2,7 +2,10 @@
   <v-container fill-height fluid grid-list-xl>
     <v-layout justify-center wrap>
       <v-flex md12>
-        <material-card color="green" title="รายชื่อประเทศ">
+        <material-card color="green" title="รายชื่อประเทศ" text="ประเทศที่มีอยู่ในระบบทั้งหมด">
+          <v-btn flat slot="menu">
+            <v-icon>mdi-plus</v-icon>เพิ่ม
+          </v-btn>
         </material-card>
       </v-flex>
       <v-flex md12>
@@ -12,6 +15,10 @@
           title="พนักงาน"
           text="Here is a subtitle for this table"
         >
+          <v-btn flat slot="menu">
+            <v-icon>mdi-plus</v-icon>Add
+          </v-btn>
+
           <v-data-table :headers="headers" :items="items.slice(0, 7)" hide-actions>
             <template slot="headerCell" slot-scope="{ header }">
               <span class="subheading font-weight-light text--darken-3" v-text="header.text"/>
