@@ -5,39 +5,45 @@
  */
 export default [
   {
-    path: '/dashboard',
+    path: '/login',
     // Relative to /src/views
-    view: 'Dashboard'
+    view: 'Login'
   },
   {
-    path: '/user-profile',
-    name: 'User Profile',
-    view: 'UserProfile'
+    path: '/register',
+    // Relative to /src/views
+    view: 'Register'
   },
   {
-    path: '/table-list',
-    name: 'Table List',
-    view: 'TableList'
+    path: '/every-class',
+    name: 'EveryClass',
+    view: 'EveryClass'
   },
   {
-    path: '/typography',
-    view: 'Typography'
+    path: '/every-classroom',
+    name: 'EveryClassroom',
+    view: 'EveryClassroom'
+  },
+  ,
+  {
+    path: '/classroom',
+    name: 'Classroom',
+    view: 'Classroom'
   },
   {
-    path: '/icons',
-    view: 'Icons'
+    path: '/history',
+    name: 'History',
+    view: 'History'
+  },
+  ,
+  {
+    path: '/history-detail',
+    name: 'HistoryDetail',
+    view: 'HistoryDetail'
   },
   {
-    path: '/maps',
-    view: 'Maps'
+    path: '/profile',
+    name: 'ข้อมูลส่วนบุคคล',
+    view: 'Profile'
   },
-  {
-    path: '/notifications',
-    view: 'Notifications'
-  },
-  {
-    path: '/upgrade',
-    name: 'Upgrade to PRO',
-    view: 'Upgrade'
-  }
 ]

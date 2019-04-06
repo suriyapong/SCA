@@ -26,7 +26,7 @@
           :data="emailsSubscriptionChart.data"
           :options="emailsSubscriptionChart.options"
           :responsive-options="emailsSubscriptionChart.responsiveOptions"
-          color="red"
+          color="dark"
           type="Bar"
         >
           <h4 class="title font-weight-light">Email Subscription</h4>
@@ -64,6 +64,18 @@
           sub-text="Last 24 Hours"
         />
       </v-flex>
+
+      <v-flex sm6 xs12 md6 lg3>
+        <material-stats-card-Edit
+          color="green"
+          icon="mdi-store"
+          title="Revenue"
+          value="$34,245"
+          sub-icon="mdi-calendar"
+          sub-text="Last 24 Hours"
+        />
+      </v-flex>
+
       <v-flex sm6 xs12 md6 lg3>
         <material-stats-card
           color="orange"

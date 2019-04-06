@@ -42,39 +42,19 @@ export default {
     logo: "",
     links: [
       {
-        to: "/dashboard",
-        icon: "mdi-view-dashboard",
-        text: "Dashboard"
-      },
-      {
-        to: "/user-profile",
-        icon: "mdi-account",
-        text: "User Profile"
-      },
-      {
-        to: "/table-list",
-        icon: "mdi-clipboard-outline",
-        text: "Table List"
-      },
-      {
-        to: "/typography",
-        icon: "mdi-format-font",
-        text: "Typography"
-      },
-      {
-        to: "/icons",
-        icon: "mdi-chart-bubble",
-        text: "Icons"
-      },
-      {
-        to: "/maps",
-        icon: "mdi-map-marker",
-        text: "Maps"
-      },
-      {
-        to: "/notifications",
+        to: "/all-school",
         icon: "mdi-bell",
-        text: "Notifications"
+        text: "ภาพรวม"
+      },
+      {
+        to: "/history",
+        icon: "mdi-history",
+        text: "ดูข้อมูลย้อนหลัง"
+      },
+      {
+        to: "/profile",
+        icon: "mdi-account-circle",
+        text: "ข้อมูลส่วนตัว"
       }
     ],
     responsive: false
